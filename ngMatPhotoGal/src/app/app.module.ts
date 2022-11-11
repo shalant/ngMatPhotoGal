@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { RandomSlideComponent } from './random-slide/random-slide.component';
 import { StoreModule } from '@ngrx/store';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    RandomSlideComponent
+    RandomSlideComponent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule,
