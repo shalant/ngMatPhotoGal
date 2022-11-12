@@ -3,6 +3,8 @@ import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
 
+// plan: eventually make a table (sortable, searchable, paginated) with all technologies, display icons
+
 export interface UserData {
   id: string;
   name: string;
@@ -22,21 +24,53 @@ const FRUITS: string[] = [
   'pineapple',
 ];
 const NAMES: string[] = [
-  'Maia',
-  'Asher',
-  'Olivia',
-  'Atticus',
-  'Amelia',
-  'Jack',
-  'Charlotte',
-  'Theodore',
-  'Isla',
-  'Oliver',
-  'Isabella',
-  'Jasper',
-  'Cora',
-  'Levi',
-  'Violet',
+  'Angular',
+  'React',
+  'Azure Developer Associate',
+  'AWS Developer Associate',
+  'AWS Certified Cloud Practicioner',
+  'AWS Solutions Architect Associate',
+  'ASP.NET',
+  'C#',
+  'Material-UI',
+  'Github',
+  'Bootstrap',
+  'MS SQL Server',
+  'MYSQL',
+  'MongoDB',
+  'Node',
+  'Arthur',
+  'Mia',
+  'Thomas',
+  'Elizabeth',
+];
+const TECHNOLOGIES: any[] = [
+  {item: 'Angular', type: 'Framework', icon: '<i class="fa-brands fa-angular"></i>'},
+  {item: 'React', type: 'Framework'},
+  {item: 'Azure-204 Developer Associate', type: 'Cloud Certification'},
+  {item: 'AWS Developer Associate', type: 'Cloud Certification'},
+  {item: 'AWS Certified Cloud Practicioner', type: 'Cloud Certification'},
+  {item: 'AWS Solutions Architect Associate', type: 'Cloud Certification'},
+  {item: 'Azure-900', type: 'Cloud Certification'},
+  {item: 'ASP.NET', type: 'Certification'},
+  {item: 'Material-UI', type: 'CSS'},
+  {item: 'MYSQL', type: 'Database'},
+  {item: 'MS SQL Server', type: 'Database'},
+  {item: 'MongoDB', type: 'Database'},
+  {item: 'Azure-900', type: 'Certification'},
+  {item: 'Azure-900', type: 'Certification'},
+  {item: 'Azure-900', type: 'Certification'},
+  {item: 'Azure-900', type: 'Certification'},
+  
+  'ASP.NET',
+  'C#',
+  '',
+  'Github',
+  'Bootstrap',
+  '',
+  '',
+  '',
+  'Node',
   'Arthur',
   'Mia',
   'Thomas',
